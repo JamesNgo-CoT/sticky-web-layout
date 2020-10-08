@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+	<title>Test - Sticky Web Layout</title>
+
+	<link rel="stylesheet" href="../../node_modules/bootstrap/dist/css/bootstrap.min.css">
+	<link rel="stylesheet" href="styles/sticky-web-layout.css">
+	<link rel="stylesheet" href="styles/test.css">
+</head>
+
+<body>
+	<!-- STICKY WEB LAYOUT -->
+	<div class="sticky-web-layout">
+
+		<!-- HEADER - SPACE HOLDER -->
+		<header aria-hidden="true">
+			<div class="container">
+				<p>HEADER</p>
+				<button type="button" class="btn btn-light btn-add-content">Add Content</button>
+			</div>
+		</header>
+
+		<!-- HEADER - FIXED POSITION -->
+		<header>
+			<div class="container">
+				<p>HEADER</p>
+				<button type="button" class="btn btn-light btn-add-content">Add Content</button>
+			</div>
+		</header>
+
+		<!-- CONTENT -->
+		<main>
+			<div class="container">
+				<p>CONTENT</p>
+				<button type="button" class="btn btn-light btn-add-content">Add Content</button>
+			</div>
+		</main>
+
+		<!-- FOOTER -->
+		<footer>
+			<div class="container">
+				<p>FOOTER</p>
+				<button type="button" class="btn btn-light btn-add-content">Add Content</button>
+			</div>
+		</footer>
+	</div>
+
+	<script src="../../node_modules/jquery/dist/jquery.min.js"></script>
+	<script src="../../node_modules/bootstrap/dist/js/bootstrap.js"></script>
+	<script src="scripts/test.js"></script>
+</body>
+
+</html>

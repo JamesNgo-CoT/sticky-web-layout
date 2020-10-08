@@ -1,0 +1,8 @@
+.sticky-web-layout {
+  background-color: blanchedalmond; }
+  .sticky-web-layout > header {
+    background-color: salmon; }
+  .sticky-web-layout > main {
+    background-color: lightblue; }
+  .sticky-web-layout > footer {
+    background-color: cadetblue; }

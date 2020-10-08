@@ -1,0 +1,25 @@
+.sticky-web-layout {
+	display: flex;
+	flex-direction: column;
+	min-height: 100vh;
+
+	& > header {
+		visibility: hidden;
+
+		& + header {
+			left: 0;
+			position: fixed;
+			right: 0;
+			top: 0;
+			visibility: visible;
+		}
+	}
+
+	& > main {
+		flex: 1 0 auto;
+	}
+
+	& > footer {
+		flex-shrink: 0;
+	}
+}
